@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="./assets/images/favicon.png">
+    
 
     <title>Ola Samples</title>
 
@@ -39,21 +40,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Ola Samples</a>
+          <a class="navbar-brand" href="#">Sample Work</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jump to <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-header">Current Role</li>
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#design">Design</a></li>
-                <li><a href="#planning">Planning</a></li>
+                <!-- current role -->
+                <li><a href="#current">Current Role</a></li>
+                <li><a href="#project">Project Management</a></li>
+                <li><a href="#delivery">Delivery Workflow</a></li>
+                <li><a href="#requirements">Business Requirements</a></li>
+                <!-- prior roles -->
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Previous Roles</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#cft">Large CFT Management</a></li>
+                <li><a href="#system">Large System Design</a></li>
+                <!-- Interests -->
+                <li role="separator" class="divider"></li>
+                <li><a href="#jsconfeu">3D System Visualization</a></li>
+                <li><a href="#stackynotes">Web dev overview</a></li>
+                <!-- Photos -->
+                <li role="separator" class="divider"></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#downloads">Downloads</a></li>
               </ul>
             </li>
           </ul>
@@ -66,11 +76,12 @@
       <!-- Intro panel -->
       <div class="row">
         <div class="col-md-4">
+          <a class="anchor" id="top"></a>
           <h2 class="text-center">Ola Adedoyin</h2>
-          <img src="./assets/images/ola-upper-jsconf.png" class="img-responsive" alt="Intro Pic">
+          <img src="./assets/images/ola-upper-jsconf.png" class="img-responsive center-block" alt="Intro Pic">
         </div>
         <div class="col-md-8">
-          <h2 class="text-center">Resume Summary</h2>
+          <!-- <h2 class="text-center">Work Summary</h2> -->
           <img src="./assets/images/intro-graph.png" class="img-responsive center-block" alt="Work Experience Summary Graph">
         </div>
       </div>
@@ -78,65 +89,214 @@
 
       <!-- Current Role -->
       <div class="page-header">
-          <a class="anchor" id="intro"></a>
+          <a class="anchor" id="current"></a>
           <h2 class="text-center">Founder & Technical Program Manager</h2>
-          <h3 class="text-center">Altamium</h3>
+          <h4 class="text-center text-muted">Altamium Consulting</h4>
         </a>
       </div>
-      <h4 class="text-center"> Client Solutions Include...</h4>
+      <div class="well">
+        <h5 class="text-center">Sample Client Solution:</h5>
+        <h3 class="text-center">Web application for network management</h3>
+      </div>
       <div class="row">
-        <div class="col-md-4">
-          <h1 class="text-center">Web application for network management</h1>
-        </div>
-        <div class="col-md-8">
-          <img src="./assets/images/n2oa.png" class="img-responsive" alt="Client app">
+        <div class="col-md-12">
+          <img src="./assets/images/n2oa.png" class="img-responsive center-block" alt="Client app">
+          <a href="http://noovis.com/noovis-launches-first-of-its-kind-application-n2oa-to-help-their-clients-manage-their-metro-campus-and-local-area-networks-lans/">
+            Link to more on Noovis’industry-leading custom SAAS solution delivered by Altamium
+          </a>
         </div>
       </div>
-
-      
 
       <!-- Design -->
       <div class="page-header">
-        <h2 class="text-center">E2E delivery led by Ola</h2>
+        <!-- <h2 class="text-center"></h2> -->
       </div>
-      <a class="anchor" id="design"></a>
-      <h4 class="text-center"> Design artifacts...</h4>
+      <a class="anchor" id="testimonial"></a>
+      <h4 class="text-center"> Client Testimonial </h4>
+      <blockquote>
+        <p>
+          "Altamium complements our entrepreneurial spirit and has proven to be a great partner”
+        </p>
+        <footer>Eric Welty<cite title="Source Title">, President, Noovis Networks</cite></footer>
+      </blockquote>
+
+      <!-- Project -->
+      <hr>
+      <a class="anchor" id="project"></a>
+      <h4 class="text-center"> Sample project management setup by Ola</h4>
+      <div class="well">
+        <h5 class="text-center">Eliminates toil by integrating automated testing, code commits, tasks and milestones for automated real-time tracking</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="text-center">High Level Milestones</h5>
+          <img src="./assets/images/planning-milestone.png" class="img-responsive center-block" alt="planning milestones">
+        </div>
+        <div class="col-md-6">
+          <h5 class="text-center">Sprint-Level Tasks</h5>
+          <img src="./assets/images/planning-task.png" class="img-responsive center-block" alt="planning tasks">
+        </div>
+      </div>
+
+      <!-- Infrastructure -->
+      <hr>
+      <a class="anchor" id="delivery"></a>
+      <h4 class="text-center"> Sample cloud infrastructure and delivery workflow setup by Ola</h4>
+      <div class="well">
+        <h5 class="text-center">Emphasizes continuous integration, agile and test driven development for successfull delivery</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h6 class="text-center">3D Visualisation of environments, cloud services, delivery processes enhances productivity of developers and business teams</h6>
+          <img src="./assets/images/infrastructure.png" class="img-responsive center-block" alt="Cloud Infrastructure and Continuous Integration">
+        </div>
+      </div>
+
+      <!-- Design -->
+      <hr>
+      <a class="anchor" id="requirements"></a>
+      <h4 class="text-center">Sample business requirements documentation by Ola</h4>
+      <div class="well">
+        <h5 class="text-center">Use different formats to capture different facets of requirements. Proritize flexible, quick and concise over inflexible and lengthy requirements documentation </h5>
+      </div>
       <div class="row">
         <div class="col-md-4">
+          <h5 class="text-center">Use Case Overview</h5>
           <img src="./assets/images/design-uc.png" class="img-responsive center-block" alt="design use-case">
         </div>
         <div class="col-md-4">
+          <h5 class="text-center">Wireframe Screens</h5>
           <img src="./assets/images/design-wf.png" class="img-responsive center-block" alt="design wire-frame">
         </div>
         <div class="col-md-4">
+          <h5 class="text-center">Business Logic Details</h5>
           <img src="./assets/images/design-graph.png" class="img-responsive center-block" alt="design logic">
         </div>
       </div>
 
+    
+    <!-- PRIOR ROLES -->
+    <div class="page-header">
+        <h2 class="text-center">Prior Roles</h2>
+      </a>
+    </div>
 
-      <!-- Planning -->
-      <div class="page-header">
-        <!-- <h2 class="text-center"></h2> -->
+    
+    <!-- Large CFT Management -->
+    <a class="anchor" id="cft"></a>
+    <h4 class="text-center"> Large cross-functional team management By Ola</h4>
+    <div class="well">
+      <h5 class="text-center">
+        Led cross-functional teams spanning multiple companies delivering technology solutions worth 10s of millions of dollars per project
+      </h5>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="./assets/images/cft-plan.png" class="img-responsive center-block" alt="Large CFT Management">
       </div>
-      <a class="anchor" id="planning"></a>
-      <h4 class="text-center"> Planning artifacts...</h4>
+    </div>
+
+    <!-- Large System Design -->
+    <a class="anchor" id="system"></a>
+    <h4 class="text-center"> Large system designs by Ola</h4>
+    <div class="well">
+      <h5 class="text-center">
+        Designed large-scale technology solutions which involved taking into consideration tremendous amounts of, sometimes conflicting, inputs from internal and external teams
+      </h5>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="./assets/images/system.png" class="img-responsive center-block" alt="Large system design">
+      </div>
+    </div>
+
+    <!-- Tech Interests -->
+    <div class="page-header">
+        <h2 class="text-center">Tech Interests</h2>
+      </a>
+    </div>
+
+
+      <!-- misc -->
       <div class="row">
         <div class="col-md-6">
-          <img src="./assets/images/planning-milestone.png" class="img-responsive" alt="planning milestones">
+          <a class="anchor" id="jsconfeu"></a>
+          <h5 class="text-center">3D System Visualization By Ola</h5>
+          <h6 class="text-center text-muted">
+            <a href="https://youtu.be/57fth5EZl8E">JSConfEU, Berlin, 2015</a>
+          </h6>
+          <div class="well">
+            <h6 class="text-center">
+              Ola presented original technique to visualize application delivery, using animated 3D diagrams, to improve business-technology collaboration <a href="https://youtu.be/57fth5EZl8E">(link)</a>
+            </h6>
+          </div>
+          <img src="./assets/images/jsconfeu.png" class="img-responsive center-block" alt="ola presenting at jsconfeu">
         </div>
+        
         <div class="col-md-6">
-          <img src="./assets/images/planning-task.png" class="img-responsive" alt="planning tasks">
+          <a class="anchor" id="stackynotes"></a>
+          <h5 class="text-center">Cloud, Web, Native Apps: An Intro by Ola</h5>
+          <h6 class="text-center text-muted">
+            <a href="http://stackynotes.com/">Stackynotes</a>
+          </h6>
+          <div class="well">
+            <h6 class="text-center"> Ola created a friendly introduction to some of the key internet technologies underlying the growth in web/native apps <a href="http://stackynotes.com/">(link)</a></h6>
+          </div>
+          <img src="./assets/images/stackynotes.png" class="img-responsive center-block" alt="planning tasks">
         </div>
       </div>
 
-
-
-      <!-- Altamium Client Results -->
+      <!-- Photos -->
+      <a class="anchor" id="photos"></a>
       <div class="page-header">
-        <div class="tile-text-span">
-          <h1> Prior Roles </h1>
+          <h2 class="text-center">Just me, working</h2>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="./assets/images/photos.png" class="img-responsive center-block" alt="gratuituos pics of Ola">
         </div>
       </div>
+
+      <!-- Downloads -->
+      <div class="page-header">
+        <a class="anchor" id="downloads"></a>
+        <h2 class="text-center">
+          Downloads            
+          <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+        </h2>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>
+        <a class="btn btn-lg btn-info" href="./assets/downloads/olaresume.pdf" role="button" download>
+         Resume with contact info
+        </a>
+        <p>
+          <a class="btn btn-lg btn-info" href="./assets/downloads/olasamples.pdf" role="button" download>
+            This site as printable PDF
+          </a>
+        </p>
+      </p>
+        </div>
+      </div>
+      
+      <!-- THank you -->
+      <hr>
+      <div class="jumbotron text-center">
+        <h1>Thank You</h1>
+        <p>
+          <a class="btn btn-lg btn-primary" href="#top" role="button">
+            Back To Top
+          </a>
+        </p>
+      </div>
+      
+
+      
+
+
 
     </div> <!-- /container -->
 
@@ -148,6 +308,8 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
 
+    <script src="./assets/javascript/mods.js"></script>
   </body>
 </html>

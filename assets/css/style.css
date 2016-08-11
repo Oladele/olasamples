@@ -1,6 +1,33 @@
+html { 
+  background: url("../images/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   min-height: 2000px;
   padding-top: 70px;
+  background: url("");
+  color: #333f4f ;
+}
+
+
+hr {
+    border-top: 1px solid #333f4f;
+}
+
+.page-header {
+	border-bottom: 1px solid #333f4f;
+}
+
+.well,.jumbotron{
+	background-color: #d6dce5;
+}
+
+.navbar-default {
+	background-color: white;
 }
 
 a.anchor {
@@ -10,8 +37,6 @@ a.anchor {
   visibility: hidden;
 }
 
-.tile-text-span{
- 	background-color: #d6dce5 ;
- 	padding: 20px;
- 	text-align: center
+blockquote {
+  font-size: 30px;
 }
